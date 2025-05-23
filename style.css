@@ -1,0 +1,43 @@
+#hero {
+  min-height: 80vh; 
+  display: flex;
+  align-items: center; 
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 1.5rem 2rem; 
+  border-radius: 0.5rem; 
+  max-width: 90%; 
+  margin-top: 2rem; 
+}
+
+@media (max-width: 576px) {
+  .carousel-caption {
+    padding: 1rem 1rem;
+    margin-top: 3rem;
+    font-size: 0.4rem; 
+  }
+  
+  .carousel-caption h1 {
+    font-size: 0.9rem; 
+  }
+  .carousel-caption .btn {
+    padding: 0.4rem 0.8rem;  
+    font-size: 0.85rem;      
+    border-radius: 0.3rem;  
+  }
+  }
+  
+  @media (min-width: 700px) and (max-width: 1200px) {
+  #pricing .card-body ul li {
+    font-size: 0.5rem; 
+  }
+  #pricing .card-title {
+    font-size: 1.8rem;
+  }
+  #pricing .card-header h4 {
+    font-size: 1.3rem;
+  }
+}
